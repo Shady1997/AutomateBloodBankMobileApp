@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Blood Bank Mobile Application" duration-ms="69566" started-at="2022-10-05T13:46:45 EET" finished-at="2022-10-05T13:47:54 EET">
+    <groups>
+      <group name="smoke">
+        <method signature="TC02_CheckSignUp.signUpNewUser()[pri:1, instance:test_cases.TC02_CheckSignUp@57855c9a]" name="signUpNewUser" class="test_cases.TC02_CheckSignUp"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test Sign Up Operation" duration-ms="69566" started-at="2022-10-05T13:46:45 EET" finished-at="2022-10-05T13:47:54 EET">
+      <class name="test_cases.TC02_CheckSignUp">
+        <test-method status="PASS" signature="prepare()[pri:0, instance:test_cases.TC02_CheckSignUp@57855c9a]" name="prepare" is-config="true" duration-ms="16265" started-at="2022-10-05T13:46:45 EET" finished-at="2022-10-05T13:47:01 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method status="PASS" signature="signUpNewUser()[pri:1, instance:test_cases.TC02_CheckSignUp@57855c9a]" name="signUpNewUser" duration-ms="52522" started-at="2022-10-05T13:47:01 EET" description="Register New user in the application" finished-at="2022-10-05T13:47:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpNewUser -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:test_cases.TC02_CheckSignUp@57855c9a]" name="TearDown" is-config="true" duration-ms="674" started-at="2022-10-05T13:47:54 EET" finished-at="2022-10-05T13:47:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- test_cases.TC02_CheckSignUp -->
+    </test> <!-- Test Sign Up Operation -->
+  </suite> <!-- Blood Bank Mobile Application -->
+</testng-results>

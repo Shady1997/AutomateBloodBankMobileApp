@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Blood Bank Mobile Application">
+    <test verbose="2" preserve-order="true" name="Test Sign Up Operation">
+       <classes>
+           <class name="test_cases.TC02_CheckSignUp"></class>
+       </classes>
+    </test>
+</suite>
